@@ -1,0 +1,360 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+  /* border: 2px solid red; */
+  background: linear-gradient(#141e30, #243b55);
+}
+.loginbox {
+  width: 400px;
+  /* border: 2px solid red; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  /* background: rgba(0,0,0,.5); */
+}
+.loginbox h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+.loginbox form .userbox {
+  position: relative;
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+}
+
+.loginbox .userbox input {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  color: #fff;
+  /* margin-bottom: 30px; */
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+  /* border: 2px solid magenta; */
+}
+.loginbox .userbox label {
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: 0.5s;
+  /* margin-bottom: 30px; */
+  /* margin: 30px; */
+  /* border: 2px solid red; */
+}
+.loginbox .userbox input:focus ~ label,
+.loginbox .userbox input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #03e9f4;
+  font-size: 12px;
+}
+.loginbox form .button {
+  position: relative;
+  /* display: inline-block; */
+  padding: 10px 20px;
+  color: #03e9f4;
+  font-size: 16px;
+  text-decoration: none;
+  /* text-transform: uppercase; */
+  /* overflow: hidden; */
+  transition: 0.5s;
+  margin-top: 30px;
+  letter-spacing: 4px;
+  background: linear-gradient(#141e30, #243b55);
+  border-radius: 5px;
+}
+
+.loginbox .button:hover {
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  /* font-size: 18px; */
+}
+.error {
+  color: red;
+  font-size: 12px;
+  /* border: 2px solid green; */
+  margin-bottom: 15px;
+  margin-top: 3px;
+  /* visibility: hidden; */
+}
+/* -------------------------------------------------->>>>>>>>>>>>>>>> */
+
+/* QuestionPage CSS */
+
+
+
+/* ----------------------------------------------------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+#dummmy{
+  font-size: 25px;
+}
+
+/* --------------------------------------------------------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* QuestionBank */
+
+.finalpage{
+  width: 100%;
+  height: 100vh;
+  background-color: #ebf6f5;
+  
+}
+.finalresultbox{
+  border: 10px solid #5cbdb9;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  padding: 20px 40px;
+  border-radius: 5px;
+}
+#finalmesg{
+  padding: 10px;
+  color: #5cbdb9;
+  font-size: 50px;
+}
+#finalscore{
+  padding:10px;
+  text-align: center;
+  color: #5cbdb9;
+
+  font-size: 30px;
+
+}
+
+
+
+#btnout{
+  width: 100px;
+  padding: 10px 20px;
+  background-color:#5cbdb9;
+  color: white;
+  border: none;
+  border-radius: 3px;
+font-weight: 600;
+margin-left: 150px;
+margin-top: 20px;
+}
+
+/* -------------------->>>>>>>>>>>>>>>>> */
+
+/* Choice Page */
+
+.choice{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.choice1{
+  position:absolute;
+top:50%;
+left: 50%;
+transform: translate(-50%,-50%)
+}
+.choice2{
+  margin-top: 25px;
+  display: flex;
+  /* border: 2px solid red; */
+  justify-content: space-around;
+
+}
+#admin{
+  padding: 10px 20px;
+}
+/* ---------------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.bodyform{
+width: 100%;
+height: 100vh;
+/* border: 2px solid red; */
+background-color: #ebf6f5;
+padding:0px 15px;
+
+}
+
+
+#form1{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#qform{
+  display: flex;
+  justify-content: center;
+  /* border-bottom: 2px solid green; */
+  padding: 15px 0px;
+  color: #5cbdb9;
+}
+.optn{
+  width: 93%;
+  margin: 8px 20px;
+  padding: 5px 10px;
+  position: relative;
+  font-size: 16px;
+  background:transparent;
+  border: none;
+  border-bottom: 1px solid ;
+  outline: none;
+  /* text-transform: capitalize; */
+  /* left: 30%; */
+}
+.loginbtns{
+  display: flex;
+  /* border: 2px solid green; */
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+#savebtn{
+  border: 2px solid #5cbdb9;
+  width: 150px;
+  padding: 5px 5px;
+  margin-right: 10px;
+  margin-top: 20px;
+  color: #ebf6f5;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #21a8a8;
+}
+
+/* --------------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* displayquespage */
+
+.displayques{
+  width: 100%;
+  height: 100vh;
+  background-color: #ebf6f5;
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid green; */
+  flex-direction: column;
+  /* border: 2px solid red; */
+}
+.displayques h1{
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid red; */
+  width: 30%;
+  margin-left: 500px;
+  margin-bottom: 10px;
+}
+.display #parentElement{
+  margin:0px 20px;
+  /* border: 2px solid red; */
+  width: 60%;
+  margin-left: 20%;
+}
+ .displayques ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  /* border: 2px solid green; */
+  padding-left: 5px;
+  margin-top: 15px;
+  margin-left: 15px;
+
+}
+
+
+.displayques ul li{
+width: 80%;
+/* padding-left: 4px; */
+text-decoration: none;
+color: #21a8a8;
+font-size: 16px;
+font-weight: 600;
+
+}
+.displayques ul li #child{
+  padding-left: 15px;
+}
+.displayques .mybtns{
+  /* border: 2px solid red; */
+  padding-left: 5px;
+  margin-left: 15px;
+  margin-top: 4px;
+
+ 
+} 
+/* -------------------------------- */
+/* crud page css */
+.displayques .mybtns #mybtns1{
+  margin-right: 2px;
+  padding: 2px 8px;
+  color:  #ebf6f5;
+  background-color: #21a8a8;
+  border: none;
+  border-radius: 4px;
+}
+.displayques #mybtns2{
+  width: 160px;
+  margin-right: 2px;
+  padding: 4px 8px;
+  color:  #ebf6f5;
+  background-color: #21a8a8;
+  border: none;
+  border-radius: 4px;
+  /* margin-top: 5px;
+  margin-top: 15px;
+  margin-left: 17px; */
+  position: absolute;
+  left: 85%;
+  top: 90%;
+  font-size: 20px;
+  position: sticky;
+}
+
+.field1{
+  border: 2px solid red;
+}
+#qanda{
+  color :#21a8a8;
+  font-weight: 600;
+  font-size: 40px;
+  border-bottom: 4px solid #21a8a8;
+  width: 300px;
+margin-left: 550px;
+}
+/* --------------------- */
+/* loder-spinner css */
+.loader{
+  width: 100%;
+  height: 100vh;
+  background-color: #ebf6f5;
+  padding-top:350px; 
+  padding-left:700px;
+}
+
+/* ------------------------------------>>>>>>>>>>> */
+
+.cont1 .heading #section{
+  color: #5cbdb9;
+}
+

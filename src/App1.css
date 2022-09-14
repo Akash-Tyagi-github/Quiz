@@ -1,0 +1,326 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+/* -------------------------------------------------->>>>>>>>>>>>>>>> */
+
+/* QuestionPage CSS */
+
+.questionpage {
+  width: 100%;
+  height: 100vh;
+  /* border: .2rem solid red; */
+  display: flex;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ebf6f5;
+}
+.cont1 {
+  width: 75%;
+  height: 100vh;
+  /* border: 2rem solid green; */
+  /* padding-left: 15rem; */
+}
+
+.cont2 {
+  width: 25%;
+  height: 100vh;
+  /* border-left: .2rem solid #21a8a8; */
+  padding-top: 0.3rem;
+}
+.cont2 h2 {
+  /* padding: 1rem; */
+  text-align: center;
+  /* border: .2rem solid #5cbdb9; */
+}
+.cont2 .section {
+  width: 100%;
+  height: 5.2rem;
+  border-top: 0.1rem solid #5cbdb9;
+  margin-top: 1.5rem;
+  background-color: #ebf6f5;
+  padding-top: 1rem;
+  /* border-left: .1rem solid #21a8a8; */
+}
+.cont2 .section h3 {
+  color: #5cbdb9;
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+.cont2 .number {
+  width: 100%;
+  /* height: 100vh; */
+  /* border: 5rem solid magenta; */
+  /* height:20%; */
+  /* border-left: .1rem solid #21a8a8; */
+
+  padding: 1rem;
+  /* background-color: #EFF8F */
+  background-color: #ebf6f5;
+  display: flex;
+  flex-wrap: wrap;
+  /* align-content:space-around; */
+}
+
+/* border: 2rem solid red; */
+/* .cont2 .number .row {
+    width: 100%;
+    height: 50rem;
+  
+    font-size: 14rem;
+    display: flex;
+    margin: 20rem 0rem;
+    justify-content: space-between;
+  }  */
+.cont2 .number > a {
+  margin: 0.8rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  padding: 0.5rem 0.9rem;
+  border: 0.1rem solid green;
+  display: flex;
+  justify-content: center;
+  background-color: #5cbdb9;
+  box-shadow: rgba(99, 99, 99, 0.2) 0rem 2rem 8rem 0rem;
+  color: #ebf6f5;
+  /* border-radius: 4rem; */
+}
+/* .cont2 .number  a {
+    height: 35rem;
+    margin: 0rem 15rem;
+    padding: 0rem 20rem;
+    padding-top: 6rem;
+  
+    background-color: #5cbdb9;
+    box-shadow: rgba(99, 99, 99, 0.2) 0rem 2rem 8rem 0rem;
+    color: #ebf6f5;
+    border-radius: 4rem;
+  } */
+
+.cont2 h4 {
+  text-align: end;
+  font-size: 1.2rem;
+  color: grey;
+  /* margin: 5rem 0rem; */
+  padding-right: 1.5rem;
+  margin-top: 0.1rem;
+}
+
+/* ---------------------------------------- */
+/* cont1 CSS */
+
+.cont1 .heading {
+  /* border: 2rem solid blue; */
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #5cbdb9;
+  background-color: #ebf6f5;
+  padding-left: 1.5rem;
+  padding-top: 1.7rem;
+  border-bottom: 0.1rem solid #5cbdb9;
+  /* border: 1rem solid red; */
+}
+.cont1 .questionbar {
+  padding: 0.5rem 0.5rem;
+  /* border-bottom: .1rem solid grey; */
+  border-right: 0.1rem solid #21a8a8;
+  padding-top: 1rem;
+}
+#qtag {
+  font-size: 1.5rem;
+  /* font-weight: 600; */
+  padding-left: 1rem;
+  color: #5cbdb9;
+}
+#qtagcontent {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+#timer {
+  margin-left: 42rem;
+  /* font-weight: 600; */
+  font-size: 1.5rem;
+  color: #5cbdb9;
+}
+.cont1 .questioncontent {
+  padding-left: 2rem;
+  padding-top: 1.5rem;
+  border-right: 0.1rem solid #21a8a8;
+  height: 29rem;
+  /* color: #5cbdb9; */
+  /* border: .1rem solid red; */
+}
+.questioncontent .optionbox {
+  margin-top: 1rem;
+  /* border: 1rem solid red; */
+}
+#qtagcontent {
+  font-size: 1.8rem;
+  letter-spacing: 0.05rem;
+  color: #5cbdb9;
+  padding-left: 0.4rem;
+}
+
+#radio {
+  padding-top: 0.1rem;
+  /* border: 10rem solid black; */
+  /* color: #03e9f4; */
+  accent-color: #5cbdb9;
+  border: none;
+}
+
+#option {
+  margin-left: 1rem;
+  font-size: 1.6rem;
+  letter-spacing: 0.05rem;
+  color: #5cbdb9;
+  font-weight: 400;
+}
+
+.btns {
+  width: 100%;
+  height: 17vh;
+  /* border: 2rem solid red; */
+  padding-left: 3.5rem;
+  padding-right: 5.5rem;
+  display: flex;
+  justify-content: space-between;
+  border-right: 0.1rem solid #21a8a8;
+}
+#btn {
+  width: 8rem;
+  height: 2.8rem;
+  padding: 0.3rem 1.5rem;
+  background-color: #5cbdb9;
+  color: white;
+  border: none;
+  border-radius: 0.3rem;
+  font-weight: 600;
+}
+
+@media (max-width: 998px) {
+  html {
+    font-size: 99%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 97%;
+  }
+}
+@media (max-width: 650px) {
+  html {
+    font-size: 94%;
+  }
+}
+
+@media (max-width: 550px) {
+  html {
+    font-size: 85%;
+  }
+}
+@media (max-width: 376px) {
+  html {
+    font-size: 80%;
+  }
+  .cont1 {
+    width: 100%;
+    height: 100vh;
+    /* border: 2rem solid green; */
+    /* padding-left: 15rem; */
+    /* border: 1px solid red; */
+  }
+  .cont2 {
+    width: 0%;
+  }
+  .cont1 .questionbar {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .cont2 .section h3 {
+    border: 2px solid blue;
+  }
+
+  #qtag {
+    font-size: 2rem;
+    /* font-weight: 600; */
+    padding-left: 1rem;
+    color: #5cbdb9;
+    margin-top: 5rem;
+    /* border: 2px solid red; */
+  }
+  #qtagcontent {
+    font-size: 1.8rem;
+    font-weight: 400;
+  }
+  #timer {
+    margin-left: 42rem;
+    /* font-weight: 600; */
+    font-size: 1.5rem;
+    color: #5cbdb9;
+  }
+  .cont1 .questioncontent {
+    padding-left: 2rem;
+    padding-top: 1.5rem;
+    /* border-right: 0.1rem solid #21a8a8; */
+    height: 29rem;
+    /* color: #5cbdb9; */
+    /* border: .1rem solid red; */
+  }
+  .questioncontent .optionbox {
+    margin-top: 1rem;
+    /* border: 1rem solid red; */
+  }
+  #qtagcontent {
+    font-size: 2.5rem;
+    letter-spacing: 0.05rem;
+    color: #5cbdb9;
+    padding-left: 0.4rem;
+  }
+
+  #radio {
+    padding-top: 0.1rem;
+    /* border: 10rem solid black; */
+    /* color: #03e9f4; */
+    accent-color: #5cbdb9;
+    border: none;
+  }
+
+  #option {
+    margin-left: 1rem;
+    font-size: 2.0rem;
+    letter-spacing: 0.05rem;
+    color: #5cbdb9;
+    font-weight: 400;
+  }
+
+  .btns {
+    width: 100%;
+    height: 17vh;
+    /* border: 2rem solid red; */
+    padding-left: 3.5rem;
+    padding-right: 5.5rem;
+    display: flex;
+    justify-content: space-between;
+    /* border-right: 0.1rem solid #21a8a8; */
+  }
+  #btn {
+    width: 8rem;
+    height: 2.8rem;
+    padding: 0.3rem 1.5rem;
+    background-color: #5cbdb9;
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+    font-weight: 600;
+  }
+}
